@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register</h2>
+
+<div class="">
+    <form action="Register" method="post">
+        <label>FirstName</label><br />
+        <input type="text" name="FirstName"  placeholder="FirstName" asp-for="FirstName"/><br/>
+        <label>LastName</label><br />
+        <input type="text"  name="LastName"  placeholder="LastName" asp-for="LastName" /><br />
+        <label>Email</label><br />
+        <input type="text"  name="EmailID"   placeholder="Email" asp-for="EmailID" /><br />
+        <label>Phone Number</label><br />
+        <input type="text" name="PhoneNumber"  placeholder="PhoneNumber" asp-for="PhoneNumber"/><br />
+        <input type="submit"  class="btn-success" />
+    </form>
+</div>
